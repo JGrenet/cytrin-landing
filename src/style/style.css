@@ -43,3 +43,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Tailwind utilies */
+
+.container-fluid {
+	@apply w-screen max-w-screen-2xl px-24 ml-auto mr-auto;
+}
