@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "esModuleInterop": true,
+        "target": "ES5",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "experimentalDecorators": true, 
+        "emitDecoratorMetadata": true,
+        "useDefineForClassFields": true,
+    }
+}
