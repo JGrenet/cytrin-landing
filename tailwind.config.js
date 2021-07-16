@@ -5,12 +5,18 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      spacing: {
+        'home-circle': "42rem"
+      }
+    },
     fontFamily: {
       sans: ["Montserrat"]
     },
     colors: {
       transparent: "transparent",
       yellow: {
+        dark: "#F9EBCA",
         DEFAULT: "#FAB54D",
         light: "#FFF4E3"
       },
