@@ -165,6 +165,23 @@ table {
   @apply w-screen max-w-screen-2xl px-5 lg:px-24 ml-auto mr-auto;
 }
 
+.title {
+  @apply font-semibold text-darkblue-dark;
+}
+
+.text {
+  @apply text-sm lg:text-base font-normal text-darkblue-dark;
+}
+
+.underlined {
+  @apply relative;
+}
+
+.underlined:after {
+  content: "";
+  @apply block absolute left-0 bottom-0 bg-yellow h-1 w-32;
+}
+
 .gradient-text {
   @apply text-transparent bg-clip-text bg-gradient-to-r;
 }
