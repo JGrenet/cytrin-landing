@@ -47,7 +47,9 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ['responsive', 'hover', 'last'],
+    },
   },
   plugins: [],
 }

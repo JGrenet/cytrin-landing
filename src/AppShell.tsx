@@ -5,6 +5,7 @@ import HomeCircleSVG from "./images/homeCircle.svg";
 import Section from "./common/Section";
 import OurVision from "./OurVision";
 import TheProduct from "./the-product/TheProduct";
+import HowItWorks from "./how-it-works/HowItWorks";
 
 const AppShell = () => {
   return (
@@ -48,6 +49,9 @@ const AppShell = () => {
       </Section>
       <Section title="The product">
         <TheProduct />
+      </Section>
+      <Section title="How it works ?">
+        <HowItWorks />
       </Section>
     </>
   );
