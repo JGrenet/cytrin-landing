@@ -1,5 +1,5 @@
 import React from "react";
-import OurVisionSVG from "../images/ourVision.svg";
+import OurVisionSVG from "./images/ourVision.svg";
 
 const OurVision = () => {
   return (
@@ -7,7 +7,7 @@ const OurVision = () => {
       <div className="w-48 lg:w-auto">
         <img className="w-full max-w-lg" src={OurVisionSVG} />
       </div>
-      <div className="mt-3 lg:mt-0 flex lg:block flex-col items-center w-auto lg:w-128 ml-0 lg:ml-32">
+      <div className="mt-8 lg:mt-0 flex lg:block flex-col items-center w-auto lg:w-128 ml-0 lg:ml-32">
         <h5 className="text-center lg:text-left text-base lg:text-2xl title underlined">
           The state of the situation
         </h5>

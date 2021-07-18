@@ -3,7 +3,8 @@ import Header from "./Header";
 import Button from "./common/Button";
 import HomeCircleSVG from "./images/homeCircle.svg";
 import Section from "./common/Section";
-import OurVision from "./our-vision/OurVision";
+import OurVision from "./OurVision";
+import TheProduct from "./the-product/TheProduct";
 
 const AppShell = () => {
   return (
@@ -11,7 +12,7 @@ const AppShell = () => {
       <div className="h-auto lg:h-screen pt-8 lg:pt-16 lg:flex flex-col">
         <Header />
         <div className="mt-8 lg:mt-0 container-fluid lg:flex-grow w-full lg:flex items-center justify-between">
-          <div class="flex lg:block flex-col items-center">
+          <div className="flex lg:block flex-col items-center">
             <h3 className="text-center lg:text-left text-sm lg:text-lg font-semibold gradient-text from-yellow to-black">
               A FRAMEWORK AGNOSTIC DESIGN SYSTEM BUILDER
             </h3>
@@ -44,6 +45,9 @@ const AppShell = () => {
       </div>
       <Section title="Our vision">
         <OurVision />
+      </Section>
+      <Section title="The product">
+        <TheProduct />
       </Section>
     </>
   );
