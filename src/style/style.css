@@ -162,7 +162,7 @@ table {
 /* Tailwind utilies */
 
 .container-fluid {
-  @apply w-screen max-w-screen-2xl px-24 ml-auto mr-auto;
+  @apply w-screen max-w-screen-2xl px-5 lg:px-24 ml-auto mr-auto;
 }
 
 .gradient-text {

@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        'home-circle': "42rem"
+        'home-circle': '42rem',
+        '112': '28rem',
+        '128': '32rem',
+        '144': '36rem'
       }
     },
     fontFamily: {
