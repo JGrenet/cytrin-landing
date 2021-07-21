@@ -6,6 +6,7 @@ import Section from "./common/Section";
 import OurVision from "./OurVision";
 import TheProduct from "./the-product/TheProduct";
 import HowItWorks from "./how-it-works/HowItWorks";
+import YellowBand from "./YellowBand";
 
 const AppShell = () => {
   return (
@@ -53,6 +54,8 @@ const AppShell = () => {
       <Section title="How it works ?">
         <HowItWorks />
       </Section>
+      <YellowBand />
+      {/* The benefits */}
     </>
   );
 };
