@@ -7,6 +7,7 @@ import OurVision from "./OurVision";
 import TheProduct from "./the-product/TheProduct";
 import HowItWorks from "./how-it-works/HowItWorks";
 import YellowBand from "./YellowBand";
+import TheBenefits from "./the-benefits/TheBenefits";
 
 const AppShell = () => {
   return (
@@ -55,7 +56,9 @@ const AppShell = () => {
         <HowItWorks />
       </Section>
       <YellowBand />
-      {/* The benefits */}
+      <Section title="The benefits">
+        <TheBenefits />
+      </Section>
     </>
   );
 };
