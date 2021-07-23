@@ -8,6 +8,7 @@ import TheProduct from "./the-product/TheProduct";
 import HowItWorks from "./how-it-works/HowItWorks";
 import YellowBand from "./YellowBand";
 import TheBenefits from "./the-benefits/TheBenefits";
+import Footer from "./footer/Footer";
 
 const AppShell = () => {
   return (
@@ -59,6 +60,7 @@ const AppShell = () => {
       <Section title="The benefits">
         <TheBenefits />
       </Section>
+      <Footer />
     </>
   );
 };

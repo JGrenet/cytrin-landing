@@ -8,7 +8,6 @@ interface TheBenefitsStepProps {
 
 const TheBenefitsStep = ({ index, title, content }: TheBenefitsStepProps) => {
   return (
-    // TODO Le margin en first-child ne fonctionne pas
     <div className="flex flex-col items-center benefits-step">
       <div>
         <span className="text-base lg:text-2xl font-semibold gradient-text from-yellow to-black">{`${index}. `}</span>

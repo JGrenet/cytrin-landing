@@ -161,6 +161,10 @@ table {
 
 /* Tailwind utilies */
 
+a {
+  @apply hover:underline;
+}
+
 .container-fluid {
   @apply w-screen max-w-screen-2xl px-5 lg:px-24 ml-auto mr-auto;
 }
@@ -170,7 +174,7 @@ table {
 }
 
 .text {
-  @apply text-sm lg:text-base font-normal text-darkblue-dark;
+  @apply text-sm lg:text-base font-normal text-darkblue;
 }
 
 .underlined {

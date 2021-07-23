@@ -51,7 +51,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      margin: ['responsive', 'hover', 'last'],
+      margin: ['responsive', 'hover', 'last', 'first'],
     },
   },
   plugins: [],
